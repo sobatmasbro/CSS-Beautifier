@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href='http://mastamvan.blogspot.co.id/favicon.ico' rel='icon' type='image/x-icon'/>
+    <meta charset="utf-8">
+    <title>Css Beautifier | Mas Tamvan [mastamvan.blogspot.com]</title>
+  <script src="mirror.js" charset="utf-8"></script>
+  <script src="mirrorCs.js" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="mirror.css"/>
+  <link rel="stylesheet" type="text/css" href="mirrorCs.css"/>
+  <script src="mirrorBeauty.js" charset="utf-8"></script>
+  <script src="mirrorBeautyCs.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="container">
+  <header>  
+          <a href="#" class='prp close' enabled ></a>
+      <a href="#" class='prp min'></a>
+      <a href="#" class='prp max'></a>  
+      <a href="#" class='maxer'>&#8660;</a>
+      <h1><a href="http://www.mastamvan.blogspot.com" target="_blank">CSS Beautifier | Blog Mas Tamvan</a></h1>
+  <strong>CSS Beautifier Tool Untuk Merapihkan CSS Yang Berantakan / Berdempetan</strong></header>
+
+    <div class="raw">
+      <h3>Paste Kode CSS  sobat, yang Tak Rapih :</h3>
+      <textarea id="raw" rows="22" autofocus="autofocus" spellcheck="false" onChange='format()' onKeyDown='format()'></textarea>
+            <h3>CTRL + V : Untuk Memasukan CSS</h3>
+    </div>
+    <div class="formatted">
+        <h3>Kode CSS yang sudah di Rapihkan :</h3>
+        <textarea id="beautified" rows="22" readonly></textarea>
+                    <h3>CTRL + A + C : Untuk Mencopy CSS</h3>
+    </div>
+    <div class="options">
+        <h3>Pengaturan :</h3>
+        <p>Jarak Perintah CSS<br>
+        <label><input checked type="radio" name="indent" id="fourspaces" value="fourspaces" onChange='format()'>4 spasi</label><br>
+        <label><input type="radio" name="indent" id="twospaces" value="twospaces" onChange='format()'>2 spasi</label><br>
+        <label><input type="radio" name="indent" id="tab" value="tab" onChange='format()'>tab</label>
+        </p>
+        <p>Penempatan Pembuka :<br>
+        <label><input checked type="radio" name="openbrace" id="openbrace-end-of-line" onChange='format()'>Setelah Kepala</label><br>
+        <label><input type="radio" name="openbrace" id="openbrace-separate-line" onChange='format()'>Dibawah Kepala</label>
+        </p>
+        <p><label><input checked type="checkbox" name="autosemicolon" id="autosemicolon" onChange='format()'>Otomatis memberi penutup ( <b>;</b> )</label></p>
+    </div>
+    <br clear="all"/>
+    <div class="footer"><strong><script>
+footblogmastamvan=new Date();
+thnblogmastamvan=footblogmastamvan.getFullYear();
+document.write("Copyright &copy; 2015-"+thnblogmastamvan);
+</script>- CSS Beautifier | Published by <a href="http://www.mastamvan.blogspot.com" target="_blank" title='blog mas tamvan' >Blog Mas Tamvan</a></strong></div>
+</div>
+<style type="text/css">
+a:link , a:visited { color:#333; }
+</style>
+</body>
+</html>
