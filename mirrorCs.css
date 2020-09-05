@@ -1,0 +1,199 @@
+body {
+    min-width: 960px;
+    background-color: #EA7272;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #444;
+}
+
+p {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-bottom: 9px;
+}
+
+a {
+    text-decoration: none;
+}
+header{text-align: center;
+    background: -webkit-linear-gradient(top, #e5e5e5 0%,#bababa 100%, #bababa 100%);
+    background:    -moz-linear-gradient(top, #e5e5e5 0%,#bababa 100%, #bababa 100%);
+    background:      -o-linear-gradient(top, #e5e5e5 0%,#bababa 100%, #bababa 100%);
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #888;
+    height: 13px;
+    padding:5px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);margin-bottom: 106px;}
+.prp{
+    background: #f76b50;
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 100%;
+    box-shadow: 0px 1px 5px #853222 inset,0px 1px 0px rgba(255,255,255,0.5);
+    float: left;
+    margin:0px 5px;
+}
+.prp:before{
+    content: '';
+    border-radius: 100%;
+    width: 7px;
+    height: 3px;
+    background: transparent;
+    position: absolute;
+    margin: -3px 3px;
+    box-shadow: 0px 5px 3px white;
+}
+.prp:after{
+    content: '';
+    border-radius: 100%;
+    width: 10px;
+    height: 4px;
+    background: transparent;
+    position: absolute;
+    margin: 2px 1px;
+    box-shadow: 0px 5px 6px white;
+}
+.min{
+    background: #f5bf67;
+    box-shadow: 0px 1px 5px #876212 inset,0px 1px 0px rgba(255,255,255,0.5);
+} 
+.max{
+    background: #a3db82;
+    box-shadow: 0px 1px 5px #5a6e49 inset,0px 1px 0px rgba(255,255,255,0.5);
+}
+.maxer{
+    font-size: 20px;
+    color:#8D8D8D;
+    text-shadow:0px 1px 0px #fff;
+    text-decoration: none;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+    display: block;
+    float: right;
+    line-height: 14px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #444;
+}
+
+h1 small {
+    font-size: 18px;
+    color: #ccc;
+}
+
+h3 {
+    color: #555;
+}
+h1,h2,h3 {text-align: center;}
+textarea {
+    font-family: Inconsolata, Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 14px;
+    color: #555;
+    width: 340px;
+    padding: 7px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: 1px solid #bbb;
+}
+
+.container {
+    background: transparent -moz-linear-gradient(center top , #E5E5E5 0%, #BABABA 100%, #BABABA 100%) repeat scroll 0% 0%;
+    padding-bottom: 44px;
+    border-radius: 12px;
+    margin: 87px auto 0px;
+    width: 970px;
+    box-shadow: 0px 0px 9px;
+
+
+}
+
+.container .raw {
+    width: 380px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container .raw textarea {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: border linear 0.25s, box-shadow linear 0.25s;
+    -webkit-transition: border linear 0.25s, box-shadow linear 0.25s;
+    -moz-transition: border linear 0.25s, box-shadow linear 0.25s;
+    -o-transition: border linear 0.25s, box-shadow linear 0.25s;
+}
+
+.container .raw textarea:focus {
+    border-color: rgba(60, 200, 1, 0.8);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(60, 200, 1, 0.4);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(60, 200, 1, 0.4);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(60, 200, 1, 0.4);
+}
+.CodeMirror:hover {
+ background-image: url("http://4.bp.blogspot.com/-eFyPPX8rX94/VqtcyuiO0jI/AAAAAAAAAi0/LPNehr6CLtU/blog-mas-tamvan.png");
+background-size: 100% auto;
+background-repeat: no-repeat;
+background-position: center; 
+}
+.container .formatted {
+    width: 380px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container .formatted textarea {
+    color: #000;
+}
+
+.container .options {
+    width: 140px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container .options input {
+    margin: 5px 5px 5px 0px;
+}
+
+.container .options input[type=radio] {
+    margin-left: 10px;
+}
+
+.footer {
+    margin-top: 25px;
+    color: #555;
+    text-align: center;
+}
+
+.CodeMirror {
+    padding: 0;
+    border: 1px solid #bbb;
+    border-radius: 12px;
+    transition: all 1s cubic-bezier(.68,-0.55,.27,1.55) 0s;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition-delay: 0s;
+    
+
+}
+
+.CodeMirror-scroll {
+    height: 320px;
+}
